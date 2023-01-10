@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin-top: 100px;
+    display: grid;
+    text-align: center;
+    background-image: url(images/hacker-style-green-running-numbers-or-matrix-concept-free-video.jpg);
+}
+h1{
+    color: white;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span{
+    height: 1000;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: crosshair;
+    color: white;
+    border: 1px solid ;
+    
+}
+
+input{
+    height: 30px;
+   
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 3px;
+}
+
+.all{
+    border: none;
+    background-color: white  ;
+    opacity: 0.8;
+}
+
+button:hover{
+    background-color: lightgreen;
+}
+
+button:active{
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
